@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var upliftedartworkRouter = require('./routes/upliftedartwork');
+var upliftedartworkRouter = require('./routes/upliftedArtwork');
 var gridRouter = require('./routes/grid');
 
 var app = express();
